@@ -29,7 +29,7 @@ cd theme-management
 To start the project, command:
 
 ```bash
-open index.html
+open index.html in your browser 
 ```
 
 ### Feature: Theme management:
@@ -55,11 +55,13 @@ open index.html
 
    <img width="400" alt="Create themes" src="./screens/image-5.png">
 
-   - Case success 
-      <img width="400" alt="Create themes" src="./screens/image-8.png">
+   - Case success
+   
+   <img width="400" alt="Create themes" src="./screens/image-8.png">
 
    - Or error: Do not fill in the name field
-         <img width="400" alt="Create themes" src="./screens/image-7.png">
+     
+   <img width="400" alt="Create themes" src="./screens/image-7.png">
      
 ---
 
@@ -95,3 +97,11 @@ open index.html
    - Click the "delete" button.
 
 ---
+
+## Future Improvements
+All mandatory test requirements have been developed. However, there are some points that I couldn't implement due to time constraints.
+
+- User feedback: personalize messages for each action
+- Add loading effect: when switching screens and actions
+- Refactoring: divide more object responsibilities
+- Add unit tests
