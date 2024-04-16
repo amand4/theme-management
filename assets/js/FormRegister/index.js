@@ -107,40 +107,40 @@ const FormRegister = {
     templateCard.classList.add('template-card')
 
     templateCard.innerHTML = `
-    <div class="card theme-card">
-      <div class="card-body">
-      <div class="menu">
-        <p class="">MT</p>
-        <ul>
-          <li class="me-3">
-            <p class="">Themes</p>
-          </li>
-          <li>
-            <p class="link-active">Register</p>
-          </li>
-        </ul>
-      </div>
-      <h5> Welcome to TM - Theme Manager </h5>
-      <p class="description"> Where creativity meets efficiency. Our platform offers a seamless experience
-        for managing all your themes effortlessly. With its sleek design and intuitive interface, TM
-        empowers you to unleash your creativity and bring your projects to life.
-      </p>
-      <div class="button">
-        <span>Learn More</span>
+      <div class="card theme-card">
+        <div class="card-body">
+        <div class="menu">
+          <p class="">MT</p>
+          <ul>
+            <li class="me-3">
+              <p class="">Themes</p>
+            </li>
+            <li>
+              <p class="link-active">Register</p>
+            </li>
+          </ul>
+        </div>
+        <h5> Welcome to TM - Theme Manager </h5>
+        <p class="description"> Where creativity meets efficiency. Our platform offers a seamless experience
+          for managing all your themes effortlessly. With its sleek design and intuitive interface, TM
+          empowers you to unleash your creativity and bring your projects to life.
+        </p>
+        <div class="button">
+          <span>Learn More</span>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="card-description">
-    <p><strong>Theme:</strong> ${this.data.name}</p>
-  </div>
+    <div class="card-description">
+      <p><strong>Theme:</strong> ${this.data.name}</p>
+    </div>
     `
 
     const themeCard = templateCard.querySelector('.theme-card')
     const span = templateCard.querySelector('span')
     const linkActive = templateCard.querySelector('p.link-active')
-    themeCard.style.backgroundColor = this.data.colors.primary
-    span.style.backgroundColor = this.data.colors.secondary
-    linkActive.style.borderColor = this.data.colors.secondary
+    themeCard.style.backgroundColor = this.data.colors.secondary
+    span.style.backgroundColor = this.data.colors.primary
+    linkActive.style.borderColor = this.data.colors.primary
 
     templateList.append(templateCard)
   },

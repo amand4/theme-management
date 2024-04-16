@@ -21,7 +21,7 @@ export const TemplateList = {
 
             const template = this.getTemplateItem(item)
             this.element?.appendChild(template)
-        }) : this.element.innerHTML = 'Nenhum template encontrado.'
+        }) : this.element.innerHTML = 'Nenhum tema encontrado.'
     },
 
     listDataHtmlTemplateOn(data) {
@@ -32,7 +32,7 @@ export const TemplateList = {
 
             const template = this.getTemplateItem(item)
             this.element?.appendChild(template)
-        }) : this.element.innerHTML = 'Nenhum template encontrado.'
+        }) : this.element.innerHTML = 'Nenhum tema encontrado.'
 
     },
 
@@ -78,9 +78,9 @@ export const TemplateList = {
         const themeCard = templateCard.querySelector('.theme-card')
         const span = templateCard.querySelector('span')
         const linkActive = templateCard.querySelector('p.link-active')
-        themeCard.style.backgroundColor = colors.primary
-        span.style.backgroundColor = colors.secondary
-        linkActive.style.borderColor = colors.secondary
+        themeCard.style.backgroundColor = colors.secondary
+        span.style.backgroundColor = colors.primary
+        linkActive.style.borderColor = colors.primary
         return templateCard
     }
 

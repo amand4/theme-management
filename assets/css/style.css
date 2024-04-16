@@ -71,6 +71,18 @@ div.theme-card .button {
 
 }
 
+div.theme-card .menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+div.theme-card .link-active {
+  color: var(--bs-text-color);
+  border-bottom: 2px solid var(--bs-primary);
+}
+
 div.theme-card .button span {
   font-size: 10px;
   background-color: var(--bs-primary);
