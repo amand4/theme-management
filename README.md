@@ -37,7 +37,7 @@ Or
 ```bash
 run index.html with live server
 ```
-- [Live Server]([https://developer.mozilla.org/pt-BR/docs/Web/CSS](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 obs: If you have a problem with cors, I recommend running it with the live server
 
@@ -66,11 +66,11 @@ obs: If you have a problem with cors, I recommend running it with the live serve
 
    - Case success
    
-   <img width="400" alt="Create themes" src="./screens/image-8.png">
+   <img width="400" alt="message success created themes" src="./screens/image-8.png">
 
    - Or error: Do not fill in the name field
      
-   <img width="400" alt="Create themes" src="./screens/image-7.png">
+   <img width="400" alt="mensage error created themes" src="./screens/image-7.png">
      
 ---
 
@@ -91,7 +91,7 @@ obs: If you have a problem with cors, I recommend running it with the live serve
    - click on the desired theme.
    - Click the "apply" button.
 
-   <img width="400" alt="form step 1" src="./screens/image-3.png">
+   <img width="400" alt="Apply themes" src="./screens/image-3.png">
 
    
 ---
