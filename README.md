@@ -21,7 +21,7 @@ The objective of this project is to showcase my skills and experience in fronten
 ### Install project
 
 ```bash
-git git@github.com:amand4/theme-management.git
+git clone git@github.com:amand4/theme-management.git
 cd theme-management
 ```
 
@@ -31,6 +31,15 @@ To start the project, command:
 ```bash
 open index.html in your browser 
 ```
+
+Or
+
+```bash
+run index.html with live server
+```
+- [Live Server]([https://developer.mozilla.org/pt-BR/docs/Web/CSS](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+obs: If you have a problem with cors, I recommend running it with the live server
 
 ### Feature: Theme management:
 
