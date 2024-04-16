@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Theme Manager - Home</title>
+</head>
+
+<body>
+
+  <header class="sticky-top theme-bg">
+    <nav class="navbar theme-bg navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand theme-link-logo d-inline-flex text-uppercase" href="index.html">TM</a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+          aria-controls="navbar" aria-label="Toggle navigation">
+          <i class="material-icons icon-2x theme-nav-link text-white" aria-hidden="true">menu</i>
+        </button>
+        <div class="navbar-collapse text-uppercase collapse" id="navbar">
+          <ul class="navbar-nav ms-auto theme-nav-link">
+            <li class="nav-item">
+              <a class="nav-link theme-bg" href="index.html">Themes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link theme-bg" href="./src/pages/register.html">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="section-welcome theme-bg">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-8 col-xl-6 col">
+          <h1 class="display-1 mb-20">Welcome to TM - Theme Manager</h1>
+          <p class="mb-4">Where creativity meets efficiency. Our platform offers a seamless experience for managing all
+            your themes effortlessly. With its sleek design and intuitive interface, TM empowers you to unleash your
+            creativity and bring your projects to life.
+          </p>
+          <button type="button" class="theme-primary btn">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-search">
+    <div class="input-group w-50">
+      <input type="text" class="form-control" placeholder="Search theme">
+    </div>
+  </section>
+
+  <section class="section-templates">
+    <div class="container">
+      <div class="template-list" id="templateListHome">
+      </div>
+    </div>
+  </section>
+
+  <section class="section-discover-more">
+    <div class="bg-light">
+      <div class="container text-center py-5">
+        <div class="col-lg-10 col-xxl-8 mx-auto">
+          <h1 class="display-3 text-dark mb-4">Discover More</h1>
+          <p class="lead text-dark mb-0">Explore endless possibilities. Dive deeper into our platform and unlock the
+            full
+            potential of your creativity. Start your journey with us today!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center mt-3">
+    <p>&copy; 2024 Amanda Carolino. All rights reserved.</p>
+  </footer>
+  <script type="module" src="./assets/js/main.js"></script>
+</body>
+
+</html>

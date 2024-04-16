@@ -1,0 +1,87 @@
+.section-register-theme {
+  color: var(--bs-text-color-dark);
+  padding: 50px 0 50px;
+}
+
+div.buttons-actions {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+
+input[type="color"] {
+  max-width: 50px;
+  padding: 1px;
+}
+
+button[type="submit"] {
+  background-color: var(--bs-text-color-dark);
+  color: var(--bs-text-color)
+}
+
+button[type="submit"]:hover {
+  background-color: var(--bs-text-color-dark);
+  color: var(--bs-text-color)
+}
+
+button[type="submit"].active {
+  color: var(--bs-text-color);
+  margin-bottom: 5px;
+  margin-right: 0px;
+  background-color: var(--bs-danger);
+  border-color: var(--bs-danger);
+}
+
+div.notification {
+  position: fixed;
+  z-index: 9999;
+  width: 300px;
+  transform: translateX(-50%);
+  left: 50%;
+  top: -100%;
+  transition: 2s;
+}
+
+div.notification.success {
+  background-color: var(--bs-success);
+  border: solid 1px var(--bs-success);
+  top: 10px;
+  transition: 1s;
+}
+
+div.notification.error {
+  background-color: var(--bs-danger);
+  border: solid 1px var(--bs-danger);
+  top: 10px;
+  transition: 1s;
+}
+
+div.notification div {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+
+}
+
+div.notification div p {
+  color: var(--bs-text-color);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+
+  div.buttons-actions {
+    flex-direction: row;
+  }
+
+  button[type="submit"].active {
+    margin-bottom: 0px;
+    margin-right: 5px;
+  }
+}

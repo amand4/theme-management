@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./../../assets/css/style.css">
+  <link rel="stylesheet" href="./../../assets/css/register.css">
+  <title> Theme Manager - Register </title>
+</head>
+
+<body class="theme-bg">
+  <header class="sticky-top theme-bg">
+    <nav class="navbar theme-bg navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand theme-link-logo d-inline-flex text-uppercase" href="./../../index.html">TM</a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+          aria-controls="navbar" aria-label="Toggle navigation">
+          <i class="material-icons icon-2x theme-nav-link text-white" aria-hidden="true">menu</i>
+        </button>
+        <div class="navbar-collapse text-uppercase collapse" id="navbar">
+          <ul class="navbar-nav ms-auto theme-nav-link">
+            <li class="nav-item">
+              <a class="nav-link theme-bg" href="./../../index.html">Themes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link theme-bg" href="register.html">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="section-register-theme py-6 bg-light">
+    <div class="container">
+      <h2 class="text-uppercase mb-5">Theme</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form class="form" id="contact-form">
+            <div class="controls">
+              <div class="row">
+                <div class="mb-4">
+                  <label class="form-label" for="name">Name Theme *</label>
+                  <input class="form-control" type="text" name="name" id="name" placeholder="Enter name theme">
+                </div>
+                <div class="mb-4">
+                  <label class="form-label" for="primary">Primary color*</label>
+                  <input class="form-control" type="color" name="primary" id="primary" value="#000000"
+                    placeholder="Enter primary color" required="required">
+                </div>
+                <div class="mb-4">
+                  <label class="form-label" for="secondary">Secondary color*</label>
+                  <input class="form-control" type="color" name="secondary" id="secondary" value="#000000"
+                    placeholder="Enter secondary color" required="required">
+                </div>
+                <div class="mb-4">
+                  <label class="form-label" for="success">Success color*</label>
+                  <input class="form-control" type="color" name="success" id="success" value="#000000"
+                    placeholder="Enter success color" required="required">
+                </div>
+                <div class="mb-4">
+                  <label class="form-label" for="danger">Danger color*</label>
+                  <input class="form-control" type="color" name="danger" id="danger" value="#000000"
+                    placeholder="Enter danger color" required="required">
+                </div>
+                <div class="mb-4">
+                  <label class="form-label" for="warning">Warning color*</label>
+                  <input class="form-control" type="color" name="warning" id="warning" value="#000000"
+                    placeholder="Enter warning color" required="required">
+                </div>
+                <div class="buttons-actions">
+                  <button class="btn btn-delete active" type="submit">Delete</button>
+                  <button class="btn" type="submit">Save</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center">
+          <div class="template-list" id="templateListRegister">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="notification">
+    <div>
+      <p>Required fields</p>
+    </div>
+  </div>
+
+  <footer class="text-center mt-3">
+    <p>&copy; 2024 Amanda Carolino. All rights reserved.</p>
+  </footer>
+  <script type="module" src="./../../assets/js/FormRegister/index.js"></script>
+</body>
+
+</html>
